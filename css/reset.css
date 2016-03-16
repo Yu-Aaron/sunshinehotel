@@ -1,0 +1,269 @@
+body{
+    background-color: #F2F2F2;
+}
+.btn{
+    padding:9px 12px;
+}
+.clear-padding{
+    padding:0;
+}
+.clear-float{
+    overflow: hidden;
+}
+.btn-theme{
+    border: 1px solid #E866B5;
+    background-color: #E857AF;
+    color: #FFFFFF;
+    border-radius: 0px;
+}
+.btn-theme.focus, .btn-theme:focus, .btn-theme:hover {
+    color: #EFEFEF;
+    text-decoration: none;
+}
+.form-control:focus {
+    border-color: #;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(255,255,255,.075),0 0 8px rgba(255,255,255,.6);
+    box-shadow: inset 0 1px 1px rgba(255,255,255,.075),0 0 8px rgba(255,255,255,.6);
+}
+/*login.html*/
+.login-container{
+    padding-top: 50px;
+}
+.icon-wechat{
+    color: rgb(17, 205, 110);
+    font-size: 60px;
+}
+.btn-wechat-login{
+    margin-top: 15px;
+    background-color:rgb(17, 205, 110) ;
+    color:#fff;
+}
+.form-login{
+    margin-top: 35px;
+    background-color: #FFF;
+}
+.form-login.forget{
+    margin-top: 0px;
+}
+.form-login .form-group{
+    margin-bottom: 0px;
+    padding: 5px 0px;
+}
+.icon-user-login{
+    position: relative;
+    top: 3px;
+    color: #EB71BB;
+    font-size: 20px;
+}
+.form-control-login{
+    border:none;
+    box-shadow: none;
+}
+.form-login .form-control:focus {
+    border-color: #fff;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(255,255,255,.075),0 0 8px rgba(255,255,255,.6);
+    box-shadow: inset 0 1px 1px rgba(255,255,255,.075),0 0 8px rgba(255,255,255,.075);
+}
+.user-login{
+    border-bottom: 1px solid #E4E4E4;
+}
+.user-login .col-xs-1{
+    padding-left: 8px;
+}
+.control-label-login{
+    padding-left: 8px;
+}
+.foget-password{
+    display: inline-block;
+    line-height: 34px;
+    cursor: pointer;
+}
+.btn-sign{
+    margin-top: 15px;
+}
+.btn-sign-up{
+    border:1px solid #E5E5E5;
+    background-color: #fff;
+    color: #999999;
+}
+.btn-sign-in{
+    border:1px solid #E866B5;
+    background-color: #E857AF;
+    color: #FFFFFF;
+}
+
+.login-container .btn.focus,.login-container .btn:focus,.login-container .btn:hover{
+    color: #F6F6F6;;
+}
+/*index.html*/
+/*首页顶部*/
+.header{
+    height: 55px;
+    line-height: 55px;
+}
+.sign-home{
+    padding-right: 0px;
+}
+.sign-home span{
+    padding-right: 15px;;
+    border-right:1px solid #000;
+}
+
+/*幻灯片*/
+.carousel-inner .item img{
+    height: 181px;
+    width:100%;
+}
+.carousel-indicators li {
+    display: inline-block;
+    width: 20px;
+    height: 5px;
+    margin: 1px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #fff;
+    border: 1px solid #fff;
+}
+.carousel-indicators .active {
+    width: 20px;
+    height: 5px;
+    margin: 1px;
+    background-color: #69678B;
+    border: 1px solid #69678B;
+}
+/*首页图标 nav-menu*/
+.navbar-menu{
+    background-color: #FCFCFC;
+    padding-bottom: 10px;
+}
+.navbar-menu .row{
+    margin-top: 15px;
+}
+.nav-menu{
+    height: 55px;
+    width: 55px;
+    border-radius: 20px;
+    line-height: 55px;
+    margin-bottom: 5px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.nav-menu-food{
+    background-color: #E756AE;
+}
+.nav-menu-room{
+    background-color: #FB6068;
+}
+.nav-menu-outdoors{
+    background-color: #82599D;
+}
+.nav-menu-meet{
+    background-color: #A5EF00;
+}
+.nav-menu-wedding{
+    background-color: #FF9966;
+}
+.nav-menu-playing{
+    background-color: #80A9FD;
+}
+.nav-menu-represent{
+    background-color: #89D663;
+}
+.nav-menu-business{
+    background-color: #CC6699;
+}
+.icon-nav-menu{
+    color: #FFF;
+    font-size: 30px;
+}
+/*推荐*/
+.order-detail{
+    padding-bottom: 58px;
+}
+.icon-recommend,.icon-more{
+    color: #E439A1;
+}
+.home-item{
+    margin-top:15px;
+    padding-top: 5px;
+    background-color: #FFFFFF;
+}
+.home-item img{
+    width:100%;
+    height: 160px;
+    margin:5px 0px;
+}
+.home-item-price{
+    color: #E439A1;
+    font-size: 18px;
+}
+/*底部菜单*/
+.menu-footer{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height:55px;
+    background-color: #535353;
+}
+.menu-footer span{
+    color: #FFFFFF;
+}
+.menu-footer-item i{
+    position: relative;
+    top: 3px;
+    color: #FFF;
+    font-size: 20px;
+}
+.menu-footer-item.active i,.menu-footer-item.active span{
+    color: #E439A1;
+}
+.selling .row .col-xs-6:first-child{
+    padding-right: 0px;
+}
+.selling .row .price{
+    background: url("../images/priceBg.png");
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-size: cover;
+    height: 75px;
+    width: 75px;
+    color: #fff;
+    text-align: center;
+    padding-top: 16px;
+
+}
+.selling .row .col-xs-6.informaton{
+    height: 164px;
+}
+.selling .row .col-xs-6.informaton p{
+    margin-bottom: 0px;
+}
+.selling .row .col-xs-6.informaton p:first-child{
+    font-size: 15px;
+    line-height: 26px;
+
+}
+.selling .row .col-xs-6.informaton p span{
+    background: rgb(255, 153, 51) none repeat scroll 0% 0%;
+    color: rgb(255, 255, 255);
+    padding: 3px 9px;
+    font-size: 12px;
+    margin-right: 5px;
+    font-size: 14px;
+}
+.selling .row .col-xs-6.informaton p i{
+    color: #999;
+    font-size: 24px;
+    position: relative;
+    top: 3px;
+}
+.informaton .btn-theme{
+    position: absolute;
+    bottom:0;
+    width: 155px;
+    border-radius: 0;
+}

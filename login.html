@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>登录</title>
+    <script src="js/public.js"></script>
+</head>
+<body>
+<div class="container-fluid login-container"><!--container-fluid-->
+    <div class="row"><!--row-->
+        <div class="col-xs-12 text-center"><i class="iconfont icon-wechat">&#xe616;</i></div>
+        <div class="col-xs-12">
+            <button class="btn btn-block btn-wechat-login">微信一键登录</button>
+        </div>
+        <div class="col-xs-12 form-login">
+            <form class="form-horizontal">
+                <div class="form-group user-login"><!--请输入您的手机号-->
+                    <label for="inputEmail3" class="col-xs-1 control-label">
+                        <i class="iconfont icon-user-login">&#xe601;</i>
+                    </label>
+                    <div class="col-xs-10 clear-padding">
+                        <input type="email" class="form-control form-control-login" id="inputEmail3" placeholder="请输入您的手机号">
+                    </div>
+                </div><!--/.请输入您的手机号-->
+
+                <div class="form-group"><!--请输入您的密码-->
+                    <label for="inputPassword3" class="col-xs-1 control-label control-label-login">
+                        <i class="iconfont icon-user-login">&#xe602;</i>
+                    </label>
+                    <div class="col-xs-7 clear-padding">
+                        <input type="password" class="form-control form-control-login" id="inputPassword3" placeholder="请输入您的密码">
+                    </div>
+                    <div class="col-xs-3 clear-padding">
+                        <span class="foget-password">忘记密码</span>
+                    </div>
+                </div><!--/.请输入您的密码-->
+            </form>
+        </div>
+        <div class="col-xs-12 btn-sign">
+            <div class="col-xs-6"><button class="btn btn-block btn-sign-up">注册</button></div>
+            <div class="col-xs-6"><button class="btn btn-block btn-sign-in">登录</button></div>
+        </div>
+    </div><!--/.row-->
+</div><!--/.container-fluid-->
+
+</body>
+</html>

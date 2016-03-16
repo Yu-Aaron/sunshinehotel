@@ -1,0 +1,312 @@
+
+.btn-not{
+    border: 1px solid #AEAEAE;
+    background-color: #AEAEAE;
+    color: #FFFFFF;
+    border-radius: 0px;
+}
+.btn-not.focus, .btn-not:focus, .btn-not:hover {
+    color: #EFEFEF;
+    text-decoration: none;
+}
+.selling.detail{
+    margin: 0px;
+    padding-top: 0px;
+}
+.selling.detail img{
+    margin:0;
+}
+.detail-name .pull-left span{
+    font-size: 16px;
+    color: rgb(102, 102, 102);
+    padding: 10px 0px;
+    display: inline-block;
+
+}
+.detail-name .home-item-price{
+    font-size: 20px;
+    position: relative;
+    top: 8px;
+}
+.process{
+    height: 60px;
+    background-color: #E3E3E3;
+    margin-top: 15px;
+}
+.selling-detail .name{
+    border-bottom: 1px solid #f2f2f2;
+    padding: 0px 15px 10px 15px;
+
+    margin:10px -15px;
+}
+.describ p{
+    color: #868686;
+    line-height: 26px;
+}
+.menu-footer-selling-detail{
+    padding: 8px 15px;
+}
+/*提交订单*/
+.order{
+    color: #666;
+}
+.order .detail{
+    background-color: #FFFFFF;
+    margin: 15px -15px;
+    padding: 5px 15px 0px 15px;
+
+}
+.order .detail .item{
+    border-bottom: 1px solid rgb(242, 242, 242);
+    padding: 13px 15px;
+    margin: 0px -15px;
+}
+.order .detail .item.last{
+    border-bottom: 0px solid rgb(242, 242, 242);
+}
+.order .detail .item .form-group{
+    margin-bottom: 0px;
+}
+.order .detail .item .form-group label{
+    font-weight: 400;
+    position: relative;
+    top: 3px;
+}
+.order .detail .item .form-control{
+    height: 25px;
+}
+.order .title{
+    color: #FFFFFF;
+    background-color: #E857AF;
+    border-bottom: 2px dashed #FFFFFF;
+    padding: 20px 15px;
+    font-size: 17px;
+    margin: 0px -15px;
+}
+.order .count,.icon-selected{
+    color: #E857AF;
+}
+.icon-select{
+    font-size: 20px;
+    position: relative;
+    top: -6px;
+    color: #DBDBDB;
+}
+.icon-select.active{
+    color: #E857AF;
+}
+.submit-price{
+    line-height:40px;
+    color:#fff;
+}
+.submit-price span:first-child{
+    font-size: 16px;
+    margin-right: 10px;
+}
+/*支付订单*/
+.order.pay .title{
+    background-color: #fff;
+    color: #333;
+}
+.pay .title{
+    padding-bottom: 10px;
+    border-bottom: 1px dashed #f2f2f2;
+}
+.pay-detail{
+    padding-bottom: 1px !important;
+    margin-top: 0px !important;
+
+}
+.pay-detail .row{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.pay-detail .row .col-xs-3{
+    padding-right: 5px;
+
+}
+.pay .detail .item .icon-wechat{
+    color: #11CD6E;
+    font-size: 25px;
+    margin-right: 10px;
+}
+.pay .detail .item .icon-wallet{
+    color: #00BB9C;
+    font-size: 25px;
+    margin-right: 10px;
+
+}
+.payWay .item .icon-select {
+    top: 5px;
+}
+.payWay .item{
+    padding: 7px 15px ! important;
+}
+.order .title .glyphicon-play{
+    margin-left: 10px;
+    margin-right:10px;
+}
+.order .title span.active{
+    color: #E4E4E4;
+}
+.pay-detail .separate{
+    border-bottom: 1px dashed rgb(221, 221, 221);
+    padding-bottom: 15px;
+}
+.btn-pay{
+    color: rgb(232, 87, 175);
+    border: 1px solid rgb(232, 87, 175);
+    width: 100px;
+    height: 36px;
+}
+.btn-cancel-order{
+    color: #5D2680;
+    border: 1px solid #5D2680;
+    width: 100px;
+    height: 36px;
+}
+/*半岛美食*/
+.food-menu{
+    background-color: #FFFFFF;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    padding-right: 0;
+    padding-left: 0;
+}
+.food-menu img{
+    height: 165px;
+    width: 100%;
+}
+.food-menu h4{
+    margin-bottom: 0px;
+}
+.appraise i{
+    color: #FD3F49;
+    font-size: 25px;
+}
+.appraise .icon-star-none{
+    font-size: 22px;
+}
+.appraise span{
+    color: #999999;
+    font-size: 14px;
+}
+.appraise .level{
+    color: #FD3F49;
+}
+.btn-open-link{
+    margin-top: 5px;
+    border: 1px solid #E857AF;
+    color: #E857AF;
+    background-color: #FFFFFF;
+    padding: 3px 20px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 15px;
+}
+/*自助餐*/
+.buffet{
+    background-color: #FFFFFF;
+    padding:5px 30px;
+
+}
+.buffet .list .item{
+    border-bottom: 1px solid rgb(228, 228, 228);
+    padding: 10px 0px;
+}
+.buffet .list .item.last{
+    border-bottom: 0px solid rgb(228, 228, 228);
+}
+.buffet .list .item .name{
+    position: relative;
+    top: 4px;
+    font-size: 16px;
+    color: rgb(102, 102, 102);
+}
+.buffet .list .item .price{
+    margin-right: 7px;
+    font-size: 16px;
+    color: #E857AF;
+}
+.btn-buy{
+    padding: 5px 12px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(232, 87, 175);
+    border: 1px solid rgb(232, 87, 175);
+}
+.buffet-food{
+    padding-bottom: 5px;
+    color:#868686
+}
+.buffet-food .row{
+    padding: 5px 0px;
+}
+.buffet-food .name{
+    color: #666;
+}
+.buffet-food .icon-recommend{
+    font-size: 20px;
+    margin-right: 5px;
+}
+.qrCode{
+    background-color: #fff;
+    padding: 15px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 322px;
+}
+.qrCode p{
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333;
+}
+/*评价*/
+.appraise-content{
+    margin-top:15px;
+}
+.foot-button{
+    margin-top: 15px;
+}
+.foot-button .glyphicon-picture{
+    font-size: 22px;
+    color: #999;
+}
+/*评价列表*/
+.appraiseAll{
+    color: #666;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: #FFFFFF;
+}
+.appraiseAll .header-appraise{
+    border-bottom: 1px solid #D7D7D7;
+}
+.good-appraise p{
+    font-size: 20px;
+    color: #E857AF;
+}
+.appraiseAll .title{
+    padding: 15px;
+}
+.good-appraise{
+    border-right: 1px solid #D7D7D7;
+    height: 75px;
+    padding-top: 15px;
+}
+.appraiseAll .score{
+    color: rgb(232, 87, 175);
+}
+.appraiseAll .title-score{
+    padding: 15px;
+}
+.appraiseAll .title-score p{
+    margin-top: 12px;
+}
+.appraiseAll .title-score .tab{
+    margin-left: 25px;
+}
